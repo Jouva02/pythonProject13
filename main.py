@@ -1,9 +1,11 @@
 import FileModifier
-from scraper import scraper
-mscraper = scraper("URLcategorias.txt")
+import scraper
 
-mscraper.scrapURL("https://soysuper.com/c/conservas-sopas-aceites-y-condimentos/especias/cebolla")
 
+file = open("productos.txt","w")
+
+#scrapAll("URLcategorias.txt")
+#scrapURL("https://soysuper.com/c/conservas-sopas-aceites-y-condimentos/especias/laurel",file)
 
 
 
